@@ -1,0 +1,13 @@
+<p>
+  <b>Titulo:</b>
+  <%=h @libro.titulo %>
+</p>
+
+<p>
+  <b>Contenido:</b>
+  <%=h @libro.contenido %>
+</p>
+
+
+<%= link_to 'Edit', edit_libro_path(@libro) %> |
+<%= link_to 'Back', libros_path %>
