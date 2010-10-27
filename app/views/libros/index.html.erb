@@ -11,12 +11,10 @@
     <td><%=h libro.titulo %></td>
     <td><%=h libro.contenido %></td>
     <td><%= link_to 'Show', libro %></td>
-    <% if can? :update, @libro %>
     <td><%= link_to 'Edit', edit_libro_path(libro) %></td>
-    <% end %>
-    <% if can? :update, @libro %>
+    <% #if can? :update, @libro %>
     <td><%= link_to 'Destroy', libro, :confirm => 'Are you sure?', :method => :delete %></td>
-    <% end %>
+    <% #end %>
   </tr>
 <% end %>
 </table>
