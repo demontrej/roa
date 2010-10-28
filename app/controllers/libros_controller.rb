@@ -1,7 +1,11 @@
 class LibrosController < ApplicationController
   # GET /libros
   # GET /libros.xml
-  def index
+  def nuevo
+    
+  end
+
+   def index
     @libros = Libro.all
 
     respond_to do |format|
