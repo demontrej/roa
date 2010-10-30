@@ -3,7 +3,8 @@ class UsersController < ApplicationController
     @user = User.new
   end
   def nuevo_usuario
-    
+    @user = User.new
+    @user.role = 'student'
   end
 
   def create

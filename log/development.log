@@ -7423,3 +7423,1385 @@ Rendering template within layouts/application
 Rendering users/nuevo_usuario
   [4;35;1mUser Columns (0.0ms)[0m   [0mSHOW FIELDS FROM `users`[0m
 Completed in 31ms (View: 31, DB: 0) | 200 OK [http://127.0.0.1/users/nuevo_usuario]
+  [4;36;1mSQL (47.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing LibrosController#index (for 127.0.0.1 at 2010-10-28 23:31:38) [GET]
+  Parameters: {"action"=>"index", "controller"=>"libros"}
+  [4;36;1mLibro Load (94.0ms)[0m   [0;1mSELECT * FROM `libros` [0m
+Rendering template within layouts/application
+Rendering libros/index
+  [4;35;1mLibro Columns (47.0ms)[0m   [0mSHOW FIELDS FROM `libros`[0m
+  [4;36;1mUser Columns (110.0ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+Completed in 2781ms (View: 2515, DB: 298) | 200 OK [http://127.0.0.1/]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-10-28 23:33:26) [GET]
+
+ActionController::RoutingError (No route matches "/user/nuevo_es" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-10-28 23:34:12) [GET]
+
+ActionController::RoutingError (No route matches "/user/nuevo_usuario" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-10-28 23:34:16) [GET]
+
+ActionController::RoutingError (No route matches "/user/nuevo_usuario" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-10-28 23:34:42) [GET]
+
+ActionController::RoutingError (No route matches "/user/nuevo_usuario" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-10-28 23:35:00) [GET]
+
+ActionController::RoutingError (No route matches "/user/nuevo_usuario" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-10-28 23:35:01) [GET]
+
+ActionController::RoutingError (No route matches "/user/nuevo_usuario" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-10-28 23:35:15) [GET]
+
+ActionController::RoutingError (No route matches "/user/nuevo_usuario" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-10-28 23:35:15) [GET]
+
+ActionController::RoutingError (No route matches "/user/nuevo_usuario" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-10-28 23:35:20) [GET]
+
+ActionController::RoutingError (No route matches "/user" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing LibrosController#index (for 127.0.0.1 at 2010-10-28 23:35:27) [GET]
+  Parameters: {"action"=>"index", "controller"=>"libros"}
+  [4;35;1mLibro Load (0.0ms)[0m   [0mSELECT * FROM `libros` [0m
+Rendering template within layouts/application
+Rendering libros/index
+  [4;36;1mLibro Columns (0.0ms)[0m   [0;1mSHOW FIELDS FROM `libros`[0m
+  [4;35;1mUser Columns (15.0ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+Completed in 234ms (View: 125, DB: 15) | 200 OK [http://127.0.0.1/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-10-28 23:35:34) [GET]
+
+ActionController::RoutingError (No route matches "/user" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-10-28 23:35:42) [GET]
+
+ActionController::RoutingError (No route matches "/user/nuevo_usuario" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UsersController#nuevo_usuario (for 127.0.0.1 at 2010-10-28 23:38:55) [GET]
+  Parameters: {"action"=>"nuevo_usuario", "controller"=>"users"}
+Rendering template within layouts/application
+Rendering users/nuevo_usuario
+  [4;36;1mUser Columns (109.0ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+Completed in 1562ms (View: 1438, DB: 109) | 200 OK [http://127.0.0.1/users/nuevo_usuario]
+  [4;35;1mSQL (16.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UsersController#nuevo_usuario (for 127.0.0.1 at 2010-10-28 23:42:08) [GET]
+  Parameters: {"action"=>"nuevo_usuario", "controller"=>"users"}
+Rendering template within layouts/application
+Rendering users/nuevo_usuario
+ERROR: compiling _run_erb_app47views47users47nuevo_usuario46html46erb RAISED compile error
+C:/InstantRails-2.0-win/rails_apps/roa/app/views/users/nuevo_usuario.html.erb:25: syntax error, unexpected kEND
+ end ; @output_buffer.concat "\n"
+    ^
+C:/InstantRails-2.0-win/rails_apps/roa/app/views/users/nuevo_usuario.html.erb:27: syntax error, unexpected kENSURE, expecting ')'
+C:/InstantRails-2.0-win/rails_apps/roa/app/views/users/nuevo_usuario.html.erb:29: syntax error, unexpected kEND, expecting ')'
+Function body:           def _run_erb_app47views47users47nuevo_usuario46html46erb(local_assigns)
+            old_output_buffer = output_buffer;;@output_buffer = '';  __in_erb_template=true ; @output_buffer.concat "<h1> pagina para registrar estudiantes</h1>\n"
+ form_for @user do |f| ; @output_buffer.concat "\n"
+@output_buffer.concat "  "; @output_buffer.concat(( f.error_messages ).to_s); @output_buffer.concat "\n"
+@output_buffer.concat "  <p>\n"
+@output_buffer.concat "    "; @output_buffer.concat(( f.label :username ).to_s); @output_buffer.concat "<br />\n"
+@output_buffer.concat "    "; @output_buffer.concat(( f.text_field :username ).to_s); @output_buffer.concat "\n"
+@output_buffer.concat "  </p>\n"
+@output_buffer.concat "  <p>\n"
+@output_buffer.concat "    "; @output_buffer.concat(( f.label :email ).to_s); @output_buffer.concat "<br />\n"
+@output_buffer.concat "    "; @output_buffer.concat(( f.text_field :email ).to_s); @output_buffer.concat "\n"
+@output_buffer.concat "  </p>\n"
+@output_buffer.concat "  <p>\n"
+@output_buffer.concat "    "; @output_buffer.concat(( f.label :password ).to_s); @output_buffer.concat "<br />\n"
+@output_buffer.concat "    "; @output_buffer.concat(( f.password_field :password ).to_s); @output_buffer.concat "\n"
+@output_buffer.concat "  </p>\n"
+@output_buffer.concat "  <p>\n"
+@output_buffer.concat "    "; @output_buffer.concat(( f.label :password ).to_s); @output_buffer.concat "<br />\n"
+@output_buffer.concat "    "; @output_buffer.concat(( f.password_field :password_confirmation ).to_s); @output_buffer.concat "\n"
+@output_buffer.concat "  </p>\n"
+@output_buffer.concat "  <p>\n"
+@output_buffer.concat "    "; @output_buffer.concat((  f.collection_select :role, User::ROLES, :to_s, :humanize ).to_s); @output_buffer.concat "\n"
+@output_buffer.concat "\n"
+@output_buffer.concat "  </p>\n"
+@output_buffer.concat "  <p>"; @output_buffer.concat(( #f.submit ).to_s); @output_buffer.concat "</p>\n"
+ end ; @output_buffer.concat "\n"
+@output_buffer
+          ensure
+            self.output_buffer = old_output_buffer
+          end
+Backtrace: C:/InstantRails-2.0-win/rails_apps/roa/app/views/users/nuevo_usuario.html.erb:29:in `compile!'
+C:/InstantRails-2.0-win/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_view/renderable.rb:61:in `compile'
+C:/InstantRails-2.0-win/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_view/renderable.rb:28:in `render'
+C:/InstantRails-2.0-win/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_view/template.rb:205:in `render_template'
+C:/InstantRails-2.0-win/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_view/base.rb:265:in `render'
+C:/InstantRails-2.0-win/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_view/base.rb:348:in `_render_with_layout'
+C:/InstantRails-2.0-win/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_view/base.rb:262:in `render'
+C:/InstantRails-2.0-win/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/base.rb:1250:in `render_for_file'
+C:/InstantRails-2.0-win/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/base.rb:945:in `render_without_benchmark'
+C:/InstantRails-2.0-win/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/benchmarking.rb:51:in `render'
+C:/InstantRails-2.0-win/ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.5/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+C:/InstantRails-2.0-win/ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.5/lib/active_support/core_ext/benchmark.rb:10:in `realtime'
+C:/InstantRails-2.0-win/ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.5/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+C:/InstantRails-2.0-win/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/benchmarking.rb:51:in `render'
+C:/InstantRails-2.0-win/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/base.rb:1326:in `default_render'
+C:/InstantRails-2.0-win/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/base.rb:1332:in `perform_action_without_filters'
+C:/InstantRails-2.0-win/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/filters.rb:617:in `call_filters'
+C:/InstantRails-2.0-win/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/filters.rb:610:in `perform_action_without_benchmark'
+C:/InstantRails-2.0-win/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+C:/InstantRails-2.0-win/ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.5/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+C:/InstantRails-2.0-win/ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.5/lib/active_support/core_ext/benchmark.rb:10:in `realtime'
+C:/InstantRails-2.0-win/ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.5/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+C:/InstantRails-2.0-win/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+C:/InstantRails-2.0-win/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/rescue.rb:160:in `perform_action_without_flash'
+C:/InstantRails-2.0-win/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/flash.rb:146:in `perform_action'
+C:/InstantRails-2.0-win/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/base.rb:532:in `send'
+C:/InstantRails-2.0-win/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/base.rb:532:in `process_without_filters'
+C:/InstantRails-2.0-win/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/filters.rb:606:in `process'
+C:/InstantRails-2.0-win/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/base.rb:391:in `process'
+C:/InstantRails-2.0-win/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/base.rb:386:in `call'
+C:/InstantRails-2.0-win/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/routing/route_set.rb:437:in `call'
+C:/InstantRails-2.0-win/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:87:in `dispatch'
+C:/InstantRails-2.0-win/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:121:in `_call'
+C:/InstantRails-2.0-win/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:130:in `build_middleware_stack'
+C:/InstantRails-2.0-win/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/query_cache.rb:29:in `call'
+C:/InstantRails-2.0-win/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/query_cache.rb:29:in `call'
+C:/InstantRails-2.0-win/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/query_cache.rb:34:in `cache'
+C:/InstantRails-2.0-win/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/query_cache.rb:9:in `cache'
+C:/InstantRails-2.0-win/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/query_cache.rb:28:in `call'
+C:/InstantRails-2.0-win/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:361:in `call'
+C:/InstantRails-2.0-win/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/string_coercion.rb:25:in `call'
+C:/InstantRails-2.0-win/ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/head.rb:9:in `call'
+C:/InstantRails-2.0-win/ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/methodoverride.rb:24:in `call'
+C:/InstantRails-2.0-win/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/params_parser.rb:15:in `call'
+C:/InstantRails-2.0-win/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/session/cookie_store.rb:93:in `call'
+C:/InstantRails-2.0-win/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/failsafe.rb:26:in `call'
+C:/InstantRails-2.0-win/ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `call'
+C:/InstantRails-2.0-win/ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `synchronize'
+C:/InstantRails-2.0-win/ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `call'
+C:/InstantRails-2.0-win/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:114:in `call'
+C:/InstantRails-2.0-win/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/reloader.rb:34:in `run'
+C:/InstantRails-2.0-win/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:108:in `call'
+C:/InstantRails-2.0-win/ruby/lib/ruby/gems/1.8/gems/rails-2.3.5/lib/rails/rack/static.rb:31:in `call'
+C:/InstantRails-2.0-win/ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:46:in `call'
+C:/InstantRails-2.0-win/ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:40:in `each'
+C:/InstantRails-2.0-win/ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:40:in `call'
+C:/InstantRails-2.0-win/ruby/lib/ruby/gems/1.8/gems/rails-2.3.5/lib/rails/rack/log_tailer.rb:17:in `call'
+C:/InstantRails-2.0-win/ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/content_length.rb:13:in `call'
+C:/InstantRails-2.0-win/ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/chunked.rb:15:in `call'
+C:/InstantRails-2.0-win/ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/handler/mongrel.rb:64:in `process'
+C:/InstantRails-2.0-win/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:159:in `process_client'
+C:/InstantRails-2.0-win/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:158:in `each'
+C:/InstantRails-2.0-win/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:158:in `process_client'
+C:/InstantRails-2.0-win/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:285:in `run'
+C:/InstantRails-2.0-win/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:285:in `initialize'
+C:/InstantRails-2.0-win/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:285:in `new'
+C:/InstantRails-2.0-win/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:285:in `run'
+C:/InstantRails-2.0-win/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:268:in `initialize'
+C:/InstantRails-2.0-win/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:268:in `new'
+C:/InstantRails-2.0-win/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:268:in `run'
+C:/InstantRails-2.0-win/ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/handler/mongrel.rb:34:in `run'
+C:/InstantRails-2.0-win/ruby/lib/ruby/gems/1.8/gems/rails-2.3.5/lib/commands/server.rb:111
+C:/InstantRails-2.0-win/ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+C:/InstantRails-2.0-win/ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+script/server:3
+
+ActionView::TemplateError (compile error
+C:/InstantRails-2.0-win/rails_apps/roa/app/views/users/nuevo_usuario.html.erb:25: syntax error, unexpected kEND
+ end ; @output_buffer.concat "\n"
+    ^
+C:/InstantRails-2.0-win/rails_apps/roa/app/views/users/nuevo_usuario.html.erb:27: syntax error, unexpected kENSURE, expecting ')'
+C:/InstantRails-2.0-win/rails_apps/roa/app/views/users/nuevo_usuario.html.erb:29: syntax error, unexpected kEND, expecting ')') on line #25 of app/views/users/nuevo_usuario.html.erb:
+22: 
+23:   </p>
+24:   <p><%= #f.submit %></p>
+25: <% end %>
+
+    app/views/users/nuevo_usuario.html.erb:29:in `compile!'
+
+Rendered rescues/_trace (609.0ms)
+Rendered rescues/_request_and_response (188.0ms)
+Rendering rescues/layout (internal_server_error)
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UsersController#nuevo_usuario (for 127.0.0.1 at 2010-10-28 23:42:49) [GET]
+  Parameters: {"action"=>"nuevo_usuario", "controller"=>"users"}
+Rendering template within layouts/application
+Rendering users/nuevo_usuario
+
+ActionView::TemplateError (Called id for nil, which would mistakenly be 4 -- if you really wanted the id of nil, use object_id) on line #2 of app/views/users/nuevo_usuario.html.erb:
+1: <h1> pagina para registrar estudiantes</h1>
+2: <% form_for @user do |f| %>
+3:   <%= f.error_messages %>
+4:   <p>
+5:     <%= f.label :username %><br />
+
+    app/views/users/nuevo_usuario.html.erb:2
+
+Rendered rescues/_trace (328.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UsersController#show (for 127.0.0.1 at 2010-10-28 23:44:02) [GET]
+  Parameters: {"action"=>"show", "id"=>"nuevo_usuario", "controller"=>"users"}
+
+ActionController::UnknownAction (No action responded to show. Actions: create, edit, new, nuevo_usuario, and update):
+  
+
+Rendering rescues/layout (not_found)
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UsersController#show (for 127.0.0.1 at 2010-10-28 23:44:29) [GET]
+  Parameters: {"action"=>"show", "id"=>"nuevo_usuario", "controller"=>"users"}
+
+ActionController::UnknownAction (No action responded to show. Actions: create, edit, new, nuevo_usuario, and update):
+  
+
+Rendering rescues/layout (not_found)
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UsersController#nuevo_usuario (for 127.0.0.1 at 2010-10-28 23:47:36) [GET]
+  Parameters: {"action"=>"nuevo_usuario", "controller"=>"users"}
+Rendering template within layouts/application
+Rendering users/nuevo_usuario
+
+ActionView::TemplateError (Called id for nil, which would mistakenly be 4 -- if you really wanted the id of nil, use object_id) on line #2 of app/views/users/nuevo_usuario.html.erb:
+1: <h1> pagina para registrar estudiantes</h1>
+2: <% form_for @user do |f| %>
+3:   <%= f.error_messages %>
+4:   <p>
+5:     <%= f.label :username %><br />
+
+    app/views/users/nuevo_usuario.html.erb:2
+
+Rendered rescues/_trace (156.0ms)
+Rendered rescues/_request_and_response (16.0ms)
+Rendering rescues/layout (internal_server_error)
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UsersController#show (for 127.0.0.1 at 2010-10-28 23:50:34) [GET]
+  Parameters: {"action"=>"show", "id"=>"nuevo_usuario", "controller"=>"users"}
+
+ActionController::UnknownAction (No action responded to show. Actions: create, edit, new, nuevo_usuario, and update):
+  
+
+Rendering rescues/layout (not_found)
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UsersController#show (for 127.0.0.1 at 2010-10-28 23:53:14) [GET]
+  Parameters: {"action"=>"show", "id"=>"nuevo_usuario", "controller"=>"users"}
+
+ActionController::UnknownAction (No action responded to show. Actions: create, edit, new, nuevo_usuario, and update):
+  
+
+Rendering rescues/layout (not_found)
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UsersController#nuevo_usuario (for 127.0.0.1 at 2010-10-28 23:53:38) [GET]
+  Parameters: {"action"=>"nuevo_usuario", "controller"=>"users"}
+Rendering template within layouts/application
+Rendering users/nuevo_usuario
+
+ActionView::TemplateError (Called id for nil, which would mistakenly be 4 -- if you really wanted the id of nil, use object_id) on line #2 of app/views/users/nuevo_usuario.html.erb:
+1: <h1> pagina para registrar estudiantes</h1>
+2: <% form_for @user do |f| %>
+3:   <%= f.error_messages %>
+4:   <p>
+5:     <%= f.label :username %><br />
+
+    app/views/users/nuevo_usuario.html.erb:2
+
+Rendered rescues/_trace (172.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UsersController#nuevo_usuario (for 127.0.0.1 at 2010-10-28 23:54:15) [GET]
+  Parameters: {"action"=>"nuevo_usuario", "controller"=>"users"}
+  [4;35;1mUser Columns (16.0ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+Rendering template within layouts/application
+Rendering users/nuevo_usuario
+Completed in 437ms (View: 47, DB: 16) | 200 OK [http://127.0.0.1/users/nuevo_usuario]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UsersController#nuevo_usuario (for 127.0.0.1 at 2010-10-28 23:55:29) [GET]
+  Parameters: {"action"=>"nuevo_usuario", "controller"=>"users"}
+  [4;36;1mUser Columns (0.0ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+Rendering template within layouts/application
+Rendering users/nuevo_usuario
+Completed in 94ms (View: 47, DB: 0) | 200 OK [http://127.0.0.1/users/nuevo_usuario]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UsersController#create (for 127.0.0.1 at 2010-10-28 23:55:34) [POST]
+  Parameters: {"user"=>{"password_confirmation"=>"[FILTERED]", "role"=>"student", "username"=>"ddd", "password"=>"[FILTERED]", "email"=>""}, "commit"=>"Save changes", "action"=>"create", "authenticity_token"=>"UPDj3WG0hh23sNxhYVqXKo+m/l6u3kwOPOEk5nuWKxc=", "controller"=>"users"}
+  [4;35;1mUser Columns (125.0ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mSQL (15.0ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mUser Load (16.0ms)[0m   [0mSELECT `users`.id FROM `users` WHERE (LOWER(`users`.`email`) = BINARY '') LIMIT 1[0m
+  [4;36;1mUser Load (0.0ms)[0m   [0;1mSELECT `users`.id FROM `users` WHERE (LOWER(`users`.`username`) = BINARY 'ddd') LIMIT 1[0m
+  [4;35;1mUser Load (15.0ms)[0m   [0mSELECT `users`.id FROM `users` WHERE (`users`.`persistence_token` = BINARY '652a17a369c8a005204583941f9c8e3802178f2c91bdd2a56b679af3b9064005812a480c4a6022ac0bed0b9f6f4b8110588fea16e995d25d074e2d3507a87caa') LIMIT 1[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mROLLBACK[0m
+Rendering template within layouts/application
+Rendering users/new
+Rendered users/_form (79.0ms)
+Completed in 1172ms (View: 125, DB: 171) | 200 OK [http://127.0.0.1/users]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UsersController#create (for 127.0.0.1 at 2010-10-28 23:55:56) [POST]
+  Parameters: {"user"=>{"password_confirmation"=>"[FILTERED]", "role"=>"student", "username"=>"ddd", "password"=>"[FILTERED]", "email"=>"sadas@ggf.com"}, "commit"=>"Save changes", "action"=>"create", "authenticity_token"=>"UPDj3WG0hh23sNxhYVqXKo+m/l6u3kwOPOEk5nuWKxc=", "controller"=>"users"}
+  [4;35;1mUser Columns (0.0ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mUser Load (0.0ms)[0m   [0mSELECT `users`.id FROM `users` WHERE (LOWER(`users`.`email`) = BINARY 'sadas@ggf.com') LIMIT 1[0m
+  [4;36;1mUser Load (0.0ms)[0m   [0;1mSELECT `users`.id FROM `users` WHERE (LOWER(`users`.`username`) = BINARY 'ddd') LIMIT 1[0m
+  [4;35;1mUser Load (0.0ms)[0m   [0mSELECT `users`.id FROM `users` WHERE (`users`.`persistence_token` = BINARY '240ec9dba73cef0761a298beb55435755cb8103bc666d36516daf704e77ffac3918bb4e73034367aa577a2e147ba446f330d994667967642619df7969bcbee5c') LIMIT 1[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mROLLBACK[0m
+Rendering template within layouts/application
+Rendering users/new
+Rendered users/_form (31.0ms)
+Completed in 187ms (View: 47, DB: 0) | 200 OK [http://127.0.0.1/users]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UsersController#create (for 127.0.0.1 at 2010-10-28 23:56:15) [POST]
+  Parameters: {"user"=>{"password_confirmation"=>"[FILTERED]", "role"=>"student", "username"=>"ddd", "password"=>"[FILTERED]", "email"=>"sadas@ggf.com"}, "commit"=>"Save changes", "action"=>"create", "authenticity_token"=>"UPDj3WG0hh23sNxhYVqXKo+m/l6u3kwOPOEk5nuWKxc=", "controller"=>"users"}
+  [4;35;1mUser Columns (0.0ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mUser Load (0.0ms)[0m   [0mSELECT `users`.id FROM `users` WHERE (LOWER(`users`.`email`) = BINARY 'sadas@ggf.com') LIMIT 1[0m
+  [4;36;1mUser Load (0.0ms)[0m   [0;1mSELECT `users`.id FROM `users` WHERE (LOWER(`users`.`username`) = BINARY 'ddd') LIMIT 1[0m
+  [4;35;1mUser Load (0.0ms)[0m   [0mSELECT `users`.id FROM `users` WHERE (`users`.`persistence_token` = BINARY '08f00c005d624f73e84f1230ef8b75372947ce94bd9d5203dfb9bb75c5f0bd611f3b74a6a9fc5e42e5ed98cd3f759675195b2c7a990cc62fe0df2a8e956f295c') LIMIT 1[0m
+  [4;36;1mUser Create (31.0ms)[0m   [0;1mINSERT INTO `users` (`status`, `updated_at`, `crypted_password`, `username`, `password_salt`, `role`, `persistence_token`, `email`, `created_at`) VALUES(NULL, '2010-10-29 03:56:15', '9bf8dc95d0d23d95c35d57e55d8d324eeb22ba3e501f7643c7b5190bb278771d161ea84e32cde09bafa4711dbc5818e359bd27901f4887ef6bf057722ff48f29', 'ddd', 'dOOHFwjYABwhlUB5KI7', 'student', '08f00c005d624f73e84f1230ef8b75372947ce94bd9d5203dfb9bb75c5f0bd611f3b74a6a9fc5e42e5ed98cd3f759675195b2c7a990cc62fe0df2a8e956f295c', 'sadas@ggf.com', '2010-10-29 03:56:15')[0m
+  [4;35;1mSQL (16.0ms)[0m   [0mCOMMIT[0m
+Redirected to http://127.0.0.1:3000/
+Completed in 141ms (DB: 47) | 302 Found [http://127.0.0.1/users]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing LibrosController#index (for 127.0.0.1 at 2010-10-28 23:56:15) [GET]
+  Parameters: {"action"=>"index", "controller"=>"libros"}
+  [4;36;1mLibro Load (0.0ms)[0m   [0;1mSELECT * FROM `libros` [0m
+Rendering template within layouts/application
+Rendering libros/index
+  [4;35;1mLibro Columns (0.0ms)[0m   [0mSHOW FIELDS FROM `libros`[0m
+  [4;36;1mUser Columns (15.0ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (0.0ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`persistence_token` = '08f00c005d624f73e84f1230ef8b75372947ce94bd9d5203dfb9bb75c5f0bd611f3b74a6a9fc5e42e5ed98cd3f759675195b2c7a990cc62fe0df2a8e956f295c') LIMIT 1[0m
+Completed in 219ms (View: 188, DB: 15) | 200 OK [http://127.0.0.1/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing LibrosController#index (for 127.0.0.1 at 2010-10-28 23:57:35) [GET]
+  Parameters: {"action"=>"index", "controller"=>"libros"}
+  [4;36;1mLibro Load (0.0ms)[0m   [0;1mSELECT * FROM `libros` [0m
+Rendering template within layouts/application
+Rendering libros/index
+  [4;35;1mLibro Columns (16.0ms)[0m   [0mSHOW FIELDS FROM `libros`[0m
+  [4;36;1mUser Columns (0.0ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (0.0ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`persistence_token` = '08f00c005d624f73e84f1230ef8b75372947ce94bd9d5203dfb9bb75c5f0bd611f3b74a6a9fc5e42e5ed98cd3f759675195b2c7a990cc62fe0df2a8e956f295c') LIMIT 1[0m
+Completed in 469ms (View: 422, DB: 16) | 200 OK [http://127.0.0.1/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UsersController#nuevo_usuario (for 127.0.0.1 at 2010-10-28 23:57:46) [GET]
+  Parameters: {"action"=>"nuevo_usuario", "controller"=>"users"}
+  [4;36;1mUser Columns (125.0ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+Rendering template within layouts/application
+Rendering users/nuevo_usuario
+  [4;35;1mUser Load (0.0ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`persistence_token` = '08f00c005d624f73e84f1230ef8b75372947ce94bd9d5203dfb9bb75c5f0bd611f3b74a6a9fc5e42e5ed98cd3f759675195b2c7a990cc62fe0df2a8e956f295c') LIMIT 1[0m
+Completed in 219ms (View: 47, DB: 125) | 200 OK [http://127.0.0.1/users/nuevo_usuario]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UsersController#create (for 127.0.0.1 at 2010-10-28 23:58:16) [POST]
+  Parameters: {"user"=>{"password_confirmation"=>"[FILTERED]", "username"=>"prueba", "password"=>"[FILTERED]", "email"=>"juanc.com@gmail.com"}, "commit"=>"Save changes", "action"=>"create", "authenticity_token"=>"UPDj3WG0hh23sNxhYVqXKo+m/l6u3kwOPOEk5nuWKxc=", "controller"=>"users"}
+  [4;36;1mUser Columns (0.0ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mBEGIN[0m
+  [4;36;1mUser Load (0.0ms)[0m   [0;1mSELECT `users`.id FROM `users` WHERE (LOWER(`users`.`email`) = BINARY 'juanc.com@gmail.com') LIMIT 1[0m
+  [4;35;1mUser Load (16.0ms)[0m   [0mSELECT `users`.id FROM `users` WHERE (LOWER(`users`.`username`) = BINARY 'prueba') LIMIT 1[0m
+  [4;36;1mUser Load (0.0ms)[0m   [0;1mSELECT `users`.id FROM `users` WHERE (`users`.`persistence_token` = BINARY 'a600a7ec949cfefb76d972acfe8debe3b2ed31c2950c69252332ac53ee7df9924391d9b2c18ccc6c7f74b7a7010aced4ffa004513c4b2f9fdb024ba635a09b5a') LIMIT 1[0m
+  [4;35;1mUser Load (15.0ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`persistence_token` = '08f00c005d624f73e84f1230ef8b75372947ce94bd9d5203dfb9bb75c5f0bd611f3b74a6a9fc5e42e5ed98cd3f759675195b2c7a990cc62fe0df2a8e956f295c') LIMIT 1[0m
+  [4;36;1mUser Create (0.0ms)[0m   [0;1mINSERT INTO `users` (`status`, `updated_at`, `crypted_password`, `username`, `password_salt`, `role`, `persistence_token`, `email`, `created_at`) VALUES(NULL, '2010-10-29 03:58:16', '2b68d64e22cb96301d4e3dd0bcb5eb27572b13aeef2eb10de71f88ca0c739e86b04c44b4c93e9d6e294d9d35ef7c6142f81a970586c59c34ba6917066f4a6711', 'prueba', 'OKtRkRsa5dkphtHrHVmZ', NULL, 'a600a7ec949cfefb76d972acfe8debe3b2ed31c2950c69252332ac53ee7df9924391d9b2c18ccc6c7f74b7a7010aced4ffa004513c4b2f9fdb024ba635a09b5a', 'juanc.com@gmail.com', '2010-10-29 03:58:16')[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mCOMMIT[0m
+Redirected to http://127.0.0.1:3000/
+Completed in 78ms (DB: 31) | 302 Found [http://127.0.0.1/users]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing LibrosController#index (for 127.0.0.1 at 2010-10-28 23:58:16) [GET]
+  Parameters: {"action"=>"index", "controller"=>"libros"}
+  [4;36;1mLibro Load (16.0ms)[0m   [0;1mSELECT * FROM `libros` [0m
+Rendering template within layouts/application
+Rendering libros/index
+  [4;35;1mLibro Columns (0.0ms)[0m   [0mSHOW FIELDS FROM `libros`[0m
+  [4;36;1mUser Columns (0.0ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (0.0ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`persistence_token` = '08f00c005d624f73e84f1230ef8b75372947ce94bd9d5203dfb9bb75c5f0bd611f3b74a6a9fc5e42e5ed98cd3f759675195b2c7a990cc62fe0df2a8e956f295c') LIMIT 1[0m
+Completed in 235ms (View: 203, DB: 16) | 200 OK [http://127.0.0.1/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-10-29 00:13:34) [GET]
+
+ActionController::RoutingError (No route matches "/user/nuevo_usuario" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UsersController#nuevo_usuario (for 127.0.0.1 at 2010-10-29 00:13:39) [GET]
+  Parameters: {"action"=>"nuevo_usuario", "controller"=>"users"}
+  [4;36;1mUser Columns (0.0ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+Rendering template within layouts/application
+Rendering users/nuevo_usuario
+  [4;35;1mUser Load (0.0ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`persistence_token` = '08f00c005d624f73e84f1230ef8b75372947ce94bd9d5203dfb9bb75c5f0bd611f3b74a6a9fc5e42e5ed98cd3f759675195b2c7a990cc62fe0df2a8e956f295c') LIMIT 1[0m
+Completed in 250ms (View: 78, DB: 0) | 200 OK [http://127.0.0.1/users/nuevo_usuario]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UsersController#create (for 127.0.0.1 at 2010-10-29 00:13:45) [POST]
+  Parameters: {"user"=>{"password_confirmation"=>"[FILTERED]", "username"=>"juanca", "password"=>"[FILTERED]", "email"=>""}, "commit"=>"Save changes", "action"=>"create", "authenticity_token"=>"UPDj3WG0hh23sNxhYVqXKo+m/l6u3kwOPOEk5nuWKxc=", "controller"=>"users"}
+  [4;36;1mUser Columns (0.0ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mBEGIN[0m
+  [4;36;1mUser Load (0.0ms)[0m   [0;1mSELECT `users`.id FROM `users` WHERE (LOWER(`users`.`email`) = BINARY '') LIMIT 1[0m
+  [4;35;1mUser Load (0.0ms)[0m   [0mSELECT `users`.id FROM `users` WHERE (LOWER(`users`.`username`) = BINARY 'juanca') LIMIT 1[0m
+  [4;36;1mUser Load (0.0ms)[0m   [0;1mSELECT `users`.id FROM `users` WHERE (`users`.`persistence_token` = BINARY '4020f6c0643adf0007c0ca38f5b5b0bd2f0a43f3e7127c6a2c8a1b18f176858a680495c93b757cef4c188555f3df637ca75b87d20b55f1342af37b5532d2cb73') LIMIT 1[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mROLLBACK[0m
+Rendering template within layouts/application
+Rendering users/new
+Rendered users/_form (79.0ms)
+  [4;36;1mUser Load (0.0ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`persistence_token` = '08f00c005d624f73e84f1230ef8b75372947ce94bd9d5203dfb9bb75c5f0bd611f3b74a6a9fc5e42e5ed98cd3f759675195b2c7a990cc62fe0df2a8e956f295c') LIMIT 1[0m
+Completed in 375ms (View: 94, DB: 0) | 200 OK [http://127.0.0.1/users]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UsersController#create (for 127.0.0.1 at 2010-10-29 00:14:09) [POST]
+  Parameters: {"user"=>{"password_confirmation"=>"[FILTERED]", "role"=>"admin", "username"=>"jhon", "password"=>"[FILTERED]", "email"=>"jhon@gmail.com"}, "commit"=>"Save changes", "action"=>"create", "authenticity_token"=>"UPDj3WG0hh23sNxhYVqXKo+m/l6u3kwOPOEk5nuWKxc=", "controller"=>"users"}
+  [4;35;1mUser Columns (0.0ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mUser Load (0.0ms)[0m   [0mSELECT `users`.id FROM `users` WHERE (LOWER(`users`.`email`) = BINARY 'jhon@gmail.com') LIMIT 1[0m
+  [4;36;1mUser Load (0.0ms)[0m   [0;1mSELECT `users`.id FROM `users` WHERE (LOWER(`users`.`username`) = BINARY 'jhon') LIMIT 1[0m
+  [4;35;1mUser Load (0.0ms)[0m   [0mSELECT `users`.id FROM `users` WHERE (`users`.`persistence_token` = BINARY 'f71964a5d3d73b5f8b8de3e2baba7f8bd3d6b7715964bad1fc92bca015b559abf76c9c45a67c26a35fe28b7ae64263158f1a8566c6a7c361b62c94283441082a') LIMIT 1[0m
+  [4;36;1mUser Load (0.0ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`persistence_token` = '08f00c005d624f73e84f1230ef8b75372947ce94bd9d5203dfb9bb75c5f0bd611f3b74a6a9fc5e42e5ed98cd3f759675195b2c7a990cc62fe0df2a8e956f295c') LIMIT 1[0m
+  [4;35;1mUser Create (0.0ms)[0m   [0mINSERT INTO `users` (`status`, `updated_at`, `crypted_password`, `username`, `password_salt`, `role`, `persistence_token`, `email`, `created_at`) VALUES(NULL, '2010-10-29 04:14:09', '05bdaceebe22257a759ae5249123a87ec13f6ee2d353abb343fd95f6474a6251dfbd4dacba452f734765e76e33795350fd9abe2d5516ca5911a2d16a2f6cbfef', 'jhon', 'NUSdW6TzMLcMJeMlAmO6', 'admin', 'f71964a5d3d73b5f8b8de3e2baba7f8bd3d6b7715964bad1fc92bca015b559abf76c9c45a67c26a35fe28b7ae64263158f1a8566c6a7c361b62c94283441082a', 'jhon@gmail.com', '2010-10-29 04:14:09')[0m
+  [4;36;1mSQL (16.0ms)[0m   [0;1mCOMMIT[0m
+Redirected to http://127.0.0.1:3000/
+Completed in 250ms (DB: 16) | 302 Found [http://127.0.0.1/users]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing LibrosController#index (for 127.0.0.1 at 2010-10-29 00:14:09) [GET]
+  Parameters: {"action"=>"index", "controller"=>"libros"}
+  [4;35;1mLibro Load (15.0ms)[0m   [0mSELECT * FROM `libros` [0m
+Rendering template within layouts/application
+Rendering libros/index
+  [4;36;1mLibro Columns (0.0ms)[0m   [0;1mSHOW FIELDS FROM `libros`[0m
+  [4;35;1mUser Columns (0.0ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (0.0ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`persistence_token` = '08f00c005d624f73e84f1230ef8b75372947ce94bd9d5203dfb9bb75c5f0bd611f3b74a6a9fc5e42e5ed98cd3f759675195b2c7a990cc62fe0df2a8e956f295c') LIMIT 1[0m
+Completed in 125ms (View: 94, DB: 15) | 200 OK [http://127.0.0.1/]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UserSessionsController#destroy (for 127.0.0.1 at 2010-10-29 00:14:22) [GET]
+  Parameters: {"action"=>"destroy", "controller"=>"user_sessions"}
+  [4;35;1mUser Columns (0.0ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (0.0ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`persistence_token` = '08f00c005d624f73e84f1230ef8b75372947ce94bd9d5203dfb9bb75c5f0bd611f3b74a6a9fc5e42e5ed98cd3f759675195b2c7a990cc62fe0df2a8e956f295c') LIMIT 1[0m
+Redirected to http://127.0.0.1:3000/
+Completed in 63ms (DB: 0) | 302 Found [http://127.0.0.1/logout]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing LibrosController#index (for 127.0.0.1 at 2010-10-29 00:14:23) [GET]
+  Parameters: {"action"=>"index", "controller"=>"libros"}
+  [4;35;1mLibro Load (0.0ms)[0m   [0mSELECT * FROM `libros` [0m
+Rendering template within layouts/application
+Rendering libros/index
+  [4;36;1mLibro Columns (0.0ms)[0m   [0;1mSHOW FIELDS FROM `libros`[0m
+  [4;35;1mUser Columns (16.0ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+Completed in 234ms (View: 203, DB: 16) | 200 OK [http://127.0.0.1/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UsersController#new (for 127.0.0.1 at 2010-10-29 00:14:24) [GET]
+  Parameters: {"action"=>"new", "controller"=>"users"}
+  [4;36;1mUser Columns (16.0ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+Rendering template within layouts/application
+Rendering users/new
+Rendered users/_form (78.0ms)
+Completed in 187ms (View: 109, DB: 16) | 200 OK [http://127.0.0.1/users/new]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UserSessionsController#new (for 127.0.0.1 at 2010-10-29 00:14:30) [GET]
+  Parameters: {"action"=>"new", "controller"=>"user_sessions"}
+  [4;35;1mUser Columns (0.0ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+Rendering template within layouts/application
+Rendering user_sessions/new
+Completed in 344ms (View: 47, DB: 0) | 200 OK [http://127.0.0.1/login]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UserSessionsController#create (for 127.0.0.1 at 2010-10-29 00:14:36) [POST]
+  Parameters: {"commit"=>"Entrar", "user_session"=>{"username"=>"jhon", "password"=>"[FILTERED]"}, "action"=>"create", "authenticity_token"=>"UPDj3WG0hh23sNxhYVqXKo+m/l6u3kwOPOEk5nuWKxc=", "controller"=>"user_sessions"}
+  [4;36;1mUser Columns (0.0ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (0.0ms)[0m   [0mSELECT * FROM `users` WHERE (LOWER(`users`.username) = 'jhon') LIMIT 1[0m
+Redirected to http://127.0.0.1:3000/
+Completed in 187ms (DB: 0) | 302 Found [http://127.0.0.1/user_sessions]
+  [4;36;1mSQL (15.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing LibrosController#index (for 127.0.0.1 at 2010-10-29 00:14:36) [GET]
+  Parameters: {"action"=>"index", "controller"=>"libros"}
+  [4;36;1mLibro Load (15.0ms)[0m   [0;1mSELECT * FROM `libros` [0m
+Rendering template within layouts/application
+Rendering libros/index
+  [4;35;1mLibro Columns (0.0ms)[0m   [0mSHOW FIELDS FROM `libros`[0m
+  [4;36;1mUser Columns (0.0ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (0.0ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = '9') LIMIT 1[0m
+Completed in 218ms (View: 203, DB: 30) | 200 OK [http://127.0.0.1/]
+  [4;36;1mSQL (47.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (15.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing LibrosController#index (for 127.0.0.1 at 2010-10-29 09:45:18) [GET]
+  Parameters: {"action"=>"index", "controller"=>"libros"}
+  [4;36;1mLibro Load (78.0ms)[0m   [0;1mSELECT * FROM `libros` [0m
+Rendering template within layouts/application
+Rendering libros/index
+  [4;35;1mLibro Columns (62.0ms)[0m   [0mSHOW FIELDS FROM `libros`[0m
+  [4;36;1mUser Columns (31.0ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+Completed in 1922ms (View: 1736, DB: 233) | 200 OK [http://127.0.0.1/]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing LibrosController#index (for 127.0.0.1 at 2010-10-29 12:35:09) [GET]
+  Parameters: {"action"=>"index", "controller"=>"libros"}
+  [4;35;1mLibro Load (16.0ms)[0m   [0mSELECT * FROM `libros` [0m
+Rendering template within layouts/application
+Rendering libros/index
+  [4;36;1mLibro Columns (0.0ms)[0m   [0;1mSHOW FIELDS FROM `libros`[0m
+  [4;35;1mUser Columns (62.0ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+Completed in 437ms (View: 344, DB: 78) | 200 OK [http://127.0.0.1/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UsersController#new (for 127.0.0.1 at 2010-10-29 12:35:14) [GET]
+  Parameters: {"action"=>"new", "controller"=>"users"}
+  [4;36;1mUser Columns (0.0ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+Rendering template within layouts/application
+Rendering users/new
+Rendered users/_form (32.0ms)
+Completed in 406ms (View: 359, DB: 0) | 200 OK [http://127.0.0.1/users/new]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UserSessionsController#new (for 127.0.0.1 at 2010-10-29 12:35:19) [GET]
+  Parameters: {"action"=>"new", "controller"=>"user_sessions"}
+  [4;35;1mUser Columns (0.0ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+Rendering template within layouts/application
+Rendering user_sessions/new
+Completed in 78ms (View: 31, DB: 0) | 200 OK [http://127.0.0.1/login]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing LibrosController#index (for 127.0.0.1 at 2010-10-30 00:18:06) [GET]
+  Parameters: {"action"=>"index", "controller"=>"libros"}
+  [4;36;1mLibro Load (63.0ms)[0m   [0;1mSELECT * FROM `libros` [0m
+Rendering template within layouts/application
+Rendering libros/index
+  [4;35;1mLibro Columns (15.0ms)[0m   [0mSHOW FIELDS FROM `libros`[0m
+  [4;36;1mUser Columns (47.0ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+Completed in 1921ms (View: 1781, DB: 125) | 200 OK [http://127.0.0.1/]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing LibrosController#index (for 127.0.0.1 at 2010-10-30 00:30:34) [GET]
+  Parameters: {"action"=>"index", "controller"=>"libros"}
+  [4;35;1mLibro Load (16.0ms)[0m   [0mSELECT * FROM `libros` [0m
+Rendering template within layouts/application
+Rendering libros/index
+  [4;36;1mLibro Columns (0.0ms)[0m   [0;1mSHOW FIELDS FROM `libros`[0m
+  [4;35;1mUser Columns (0.0ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+Completed in 125ms (View: 94, DB: 16) | 200 OK [http://127.0.0.1/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing LibrosController#index (for 127.0.0.1 at 2010-10-30 00:31:42) [GET]
+  Parameters: {"action"=>"index", "controller"=>"libros"}
+  [4;36;1mLibro Load (0.0ms)[0m   [0;1mSELECT * FROM `libros` [0m
+Rendering template within layouts/application
+Rendering libros/index
+  [4;35;1mLibro Columns (0.0ms)[0m   [0mSHOW FIELDS FROM `libros`[0m
+  [4;36;1mUser Columns (0.0ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+Completed in 219ms (View: 203, DB: 0) | 200 OK [http://127.0.0.1/]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing LibrosController#index (for 127.0.0.1 at 2010-10-30 00:31:44) [GET]
+  Parameters: {"action"=>"index", "controller"=>"libros"}
+  [4;35;1mLibro Load (0.0ms)[0m   [0mSELECT * FROM `libros` [0m
+Rendering template within layouts/application
+Rendering libros/index
+  [4;36;1mLibro Columns (0.0ms)[0m   [0;1mSHOW FIELDS FROM `libros`[0m
+  [4;35;1mUser Columns (15.0ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+Completed in 94ms (View: 63, DB: 15) | 200 OK [http://127.0.0.1/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing LibrosController#index (for 127.0.0.1 at 2010-10-30 00:31:45) [GET]
+  Parameters: {"action"=>"index", "controller"=>"libros"}
+  [4;36;1mLibro Load (0.0ms)[0m   [0;1mSELECT * FROM `libros` [0m
+Rendering template within layouts/application
+Rendering libros/index
+  [4;35;1mLibro Columns (0.0ms)[0m   [0mSHOW FIELDS FROM `libros`[0m
+  [4;36;1mUser Columns (0.0ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+Completed in 94ms (View: 78, DB: 0) | 200 OK [http://127.0.0.1/]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing LibrosController#index (for 127.0.0.1 at 2010-10-30 00:31:45) [GET]
+  Parameters: {"action"=>"index", "controller"=>"libros"}
+  [4;35;1mLibro Load (15.0ms)[0m   [0mSELECT * FROM `libros` [0m
+Rendering template within layouts/application
+Rendering libros/index
+  [4;36;1mLibro Columns (16.0ms)[0m   [0;1mSHOW FIELDS FROM `libros`[0m
+  [4;35;1mUser Columns (0.0ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+Completed in 93ms (View: 62, DB: 31) | 200 OK [http://127.0.0.1/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing LibrosController#index (for 127.0.0.1 at 2010-10-30 00:32:58) [GET]
+  Parameters: {"action"=>"index", "controller"=>"libros"}
+  [4;36;1mLibro Load (0.0ms)[0m   [0;1mSELECT * FROM `libros` [0m
+Rendering template within layouts/application
+Rendering libros/index
+  [4;35;1mLibro Columns (16.0ms)[0m   [0mSHOW FIELDS FROM `libros`[0m
+  [4;36;1mUser Columns (0.0ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+Completed in 484ms (View: 406, DB: 16) | 200 OK [http://127.0.0.1/]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UserSessionsController#new (for 127.0.0.1 at 2010-10-30 00:33:09) [GET]
+  Parameters: {"action"=>"new", "controller"=>"user_sessions"}
+  [4;35;1mUser Columns (16.0ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+Rendering template within layouts/application
+Rendering user_sessions/new
+Completed in 172ms (View: 32, DB: 16) | 200 OK [http://127.0.0.1/login]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UsersController#new (for 127.0.0.1 at 2010-10-30 00:33:11) [GET]
+  Parameters: {"action"=>"new", "controller"=>"users"}
+  [4;36;1mUser Columns (0.0ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+Rendering template within layouts/application
+Rendering users/new
+Rendered users/_form (15.0ms)
+Completed in 94ms (View: 47, DB: 0) | 200 OK [http://127.0.0.1/users/new]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UserSessionsController#new (for 127.0.0.1 at 2010-10-30 00:33:13) [GET]
+  Parameters: {"action"=>"new", "controller"=>"user_sessions"}
+  [4;35;1mUser Columns (0.0ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+Rendering template within layouts/application
+Rendering user_sessions/new
+Completed in 157ms (View: 16, DB: 0) | 200 OK [http://127.0.0.1/login]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UsersController#new (for 127.0.0.1 at 2010-10-30 00:33:15) [GET]
+  Parameters: {"action"=>"new", "controller"=>"users"}
+  [4;36;1mUser Columns (0.0ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+Rendering template within layouts/application
+Rendering users/new
+Rendered users/_form (16.0ms)
+Completed in 204ms (View: 110, DB: 0) | 200 OK [http://127.0.0.1/users/new]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UserSessionsController#new (for 127.0.0.1 at 2010-10-30 00:33:17) [GET]
+  Parameters: {"action"=>"new", "controller"=>"user_sessions"}
+  [4;35;1mUser Columns (15.0ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+Rendering template within layouts/application
+Rendering user_sessions/new
+Completed in 234ms (View: 47, DB: 15) | 200 OK [http://127.0.0.1/login]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UserSessionsController#create (for 127.0.0.1 at 2010-10-30 00:33:23) [POST]
+  Parameters: {"commit"=>"Entrar", "user_session"=>{"username"=>"juanca", "password"=>"[FILTERED]"}, "action"=>"create", "authenticity_token"=>"3H3kTR/cI/dcHTY4qD5zapMKbj51Yh282y3M68OFzJw=", "controller"=>"user_sessions"}
+  [4;36;1mUser Columns (15.0ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (16.0ms)[0m   [0mSELECT * FROM `users` WHERE (LOWER(`users`.username) = 'juanca') LIMIT 1[0m
+Redirected to http://127.0.0.1:3000/
+Completed in 422ms (DB: 31) | 302 Found [http://127.0.0.1/user_sessions]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing LibrosController#index (for 127.0.0.1 at 2010-10-30 00:33:23) [GET]
+  Parameters: {"action"=>"index", "controller"=>"libros"}
+  [4;36;1mLibro Load (0.0ms)[0m   [0;1mSELECT * FROM `libros` [0m
+Rendering template within layouts/application
+Rendering libros/index
+  [4;35;1mLibro Columns (0.0ms)[0m   [0mSHOW FIELDS FROM `libros`[0m
+  [4;36;1mUser Columns (0.0ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (0.0ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = '1') LIMIT 1[0m
+Completed in 375ms (View: 375, DB: 0) | 200 OK [http://127.0.0.1/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (16.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing LibrosController#index (for 127.0.0.1 at 2010-10-30 00:36:59) [GET]
+  Parameters: {"action"=>"index", "controller"=>"libros"}
+  [4;36;1mLibro Load (0.0ms)[0m   [0;1mSELECT * FROM `libros` [0m
+Rendering template within layouts/application
+Rendering libros/index
+  [4;35;1mLibro Columns (0.0ms)[0m   [0mSHOW FIELDS FROM `libros`[0m
+  [4;36;1mUser Columns (0.0ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (0.0ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = '1') LIMIT 1[0m
+Completed in 219ms (View: 204, DB: 16) | 200 OK [http://127.0.0.1/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing LibrosController#index (for 127.0.0.1 at 2010-10-30 00:37:34) [GET]
+  Parameters: {"action"=>"index", "controller"=>"libros"}
+  [4;36;1mLibro Load (0.0ms)[0m   [0;1mSELECT * FROM `libros` [0m
+Rendering template within layouts/application
+Rendering libros/index
+  [4;35;1mLibro Columns (0.0ms)[0m   [0mSHOW FIELDS FROM `libros`[0m
+  [4;36;1mUser Columns (0.0ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (0.0ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = '1') LIMIT 1[0m
+Completed in 375ms (View: 359, DB: 0) | 200 OK [http://127.0.0.1/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing LibrosController#index (for 127.0.0.1 at 2010-10-30 00:40:53) [GET]
+  Parameters: {"action"=>"index", "controller"=>"libros"}
+  [4;36;1mLibro Load (0.0ms)[0m   [0;1mSELECT * FROM `libros` [0m
+Rendering template within layouts/application
+Rendering libros/index
+  [4;35;1mLibro Columns (0.0ms)[0m   [0mSHOW FIELDS FROM `libros`[0m
+  [4;36;1mUser Columns (15.0ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (0.0ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = '1') LIMIT 1[0m
+Completed in 110ms (View: 79, DB: 15) | 200 OK [http://127.0.0.1/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (15.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing LibrosController#index (for 127.0.0.1 at 2010-10-30 00:40:55) [GET]
+  Parameters: {"action"=>"index", "controller"=>"libros"}
+  [4;36;1mLibro Load (0.0ms)[0m   [0;1mSELECT * FROM `libros` [0m
+Rendering template within layouts/application
+Rendering libros/index
+  [4;35;1mLibro Columns (16.0ms)[0m   [0mSHOW FIELDS FROM `libros`[0m
+  [4;36;1mUser Columns (0.0ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (0.0ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = '1') LIMIT 1[0m
+Completed in 93ms (View: 62, DB: 31) | 200 OK [http://127.0.0.1/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing LibrosController#index (for 127.0.0.1 at 2010-10-30 00:40:56) [GET]
+  Parameters: {"action"=>"index", "controller"=>"libros"}
+  [4;36;1mLibro Load (0.0ms)[0m   [0;1mSELECT * FROM `libros` [0m
+Rendering template within layouts/application
+Rendering libros/index
+  [4;35;1mLibro Columns (0.0ms)[0m   [0mSHOW FIELDS FROM `libros`[0m
+  [4;36;1mUser Columns (0.0ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (0.0ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = '1') LIMIT 1[0m
+Completed in 204ms (View: 188, DB: 0) | 200 OK [http://127.0.0.1/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing LibrosController#index (for 127.0.0.1 at 2010-10-30 00:41:03) [GET]
+  Parameters: {"action"=>"index", "controller"=>"libros"}
+  [4;36;1mLibro Load (0.0ms)[0m   [0;1mSELECT * FROM `libros` [0m
+Rendering template within layouts/application
+Rendering libros/index
+  [4;35;1mLibro Columns (0.0ms)[0m   [0mSHOW FIELDS FROM `libros`[0m
+  [4;36;1mUser Columns (0.0ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (0.0ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = '1') LIMIT 1[0m
+Completed in 109ms (View: 94, DB: 0) | 200 OK [http://127.0.0.1/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing LibrosController#index (for 127.0.0.1 at 2010-10-30 00:42:05) [GET]
+  Parameters: {"action"=>"index", "controller"=>"libros"}
+  [4;36;1mLibro Load (0.0ms)[0m   [0;1mSELECT * FROM `libros` [0m
+Rendering template within layouts/application
+Rendering libros/index
+  [4;35;1mLibro Columns (16.0ms)[0m   [0mSHOW FIELDS FROM `libros`[0m
+  [4;36;1mUser Columns (0.0ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (0.0ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = '1') LIMIT 1[0m
+Completed in 109ms (View: 78, DB: 16) | 200 OK [http://127.0.0.1/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing LibrosController#index (for 127.0.0.1 at 2010-10-30 00:47:22) [GET]
+  Parameters: {"action"=>"index", "controller"=>"libros"}
+  [4;36;1mLibro Load (0.0ms)[0m   [0;1mSELECT * FROM `libros` [0m
+Rendering template within layouts/application
+Rendering libros/index
+  [4;35;1mLibro Columns (15.0ms)[0m   [0mSHOW FIELDS FROM `libros`[0m
+  [4;36;1mUser Columns (0.0ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (0.0ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = '1') LIMIT 1[0m
+Completed in 547ms (View: 454, DB: 15) | 200 OK [http://127.0.0.1/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing LibrosController#index (for 127.0.0.1 at 2010-10-30 01:02:08) [GET]
+  Parameters: {"action"=>"index", "controller"=>"libros"}
+  [4;36;1mLibro Load (0.0ms)[0m   [0;1mSELECT * FROM `libros` [0m
+Rendering template within layouts/application
+Rendering libros/index
+  [4;35;1mLibro Columns (15.0ms)[0m   [0mSHOW FIELDS FROM `libros`[0m
+  [4;36;1mUser Columns (0.0ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (0.0ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = '1') LIMIT 1[0m
+Completed in 532ms (View: 501, DB: 15) | 200 OK [http://127.0.0.1/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing LibrosController#index (for 127.0.0.1 at 2010-10-30 01:02:29) [GET]
+  Parameters: {"action"=>"index", "controller"=>"libros"}
+  [4;36;1mLibro Load (0.0ms)[0m   [0;1mSELECT * FROM `libros` [0m
+Rendering template within layouts/application
+Rendering libros/index
+  [4;35;1mLibro Columns (16.0ms)[0m   [0mSHOW FIELDS FROM `libros`[0m
+  [4;36;1mUser Columns (0.0ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (0.0ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = '1') LIMIT 1[0m
+Completed in 94ms (View: 63, DB: 16) | 200 OK [http://127.0.0.1/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing LibrosController#index (for 127.0.0.1 at 2010-10-30 01:02:30) [GET]
+  Parameters: {"action"=>"index", "controller"=>"libros"}
+  [4;36;1mLibro Load (0.0ms)[0m   [0;1mSELECT * FROM `libros` [0m
+Rendering template within layouts/application
+Rendering libros/index
+  [4;35;1mLibro Columns (0.0ms)[0m   [0mSHOW FIELDS FROM `libros`[0m
+  [4;36;1mUser Columns (16.0ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (0.0ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = '1') LIMIT 1[0m
+Completed in 219ms (View: 187, DB: 16) | 200 OK [http://127.0.0.1/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing LibrosController#index (for 127.0.0.1 at 2010-10-30 01:04:14) [GET]
+  Parameters: {"action"=>"index", "controller"=>"libros"}
+  [4;36;1mLibro Load (0.0ms)[0m   [0;1mSELECT * FROM `libros` [0m
+Rendering template within layouts/application
+Rendering libros/index
+  [4;35;1mLibro Columns (0.0ms)[0m   [0mSHOW FIELDS FROM `libros`[0m
+  [4;36;1mUser Columns (0.0ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (0.0ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = '1') LIMIT 1[0m
+Completed in 515ms (View: 500, DB: 0) | 200 OK [http://127.0.0.1/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing LibrosController#index (for 127.0.0.1 at 2010-10-30 01:05:40) [GET]
+  Parameters: {"action"=>"index", "controller"=>"libros"}
+  [4;36;1mLibro Load (0.0ms)[0m   [0;1mSELECT * FROM `libros` [0m
+Rendering template within layouts/application
+Rendering libros/index
+  [4;35;1mLibro Columns (16.0ms)[0m   [0mSHOW FIELDS FROM `libros`[0m
+  [4;36;1mUser Columns (0.0ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (0.0ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = '1') LIMIT 1[0m
+Completed in 406ms (View: 343, DB: 16) | 200 OK [http://127.0.0.1/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing LibrosController#index (for 127.0.0.1 at 2010-10-30 01:06:01) [GET]
+  Parameters: {"action"=>"index", "controller"=>"libros"}
+  [4;36;1mLibro Load (0.0ms)[0m   [0;1mSELECT * FROM `libros` [0m
+Rendering template within layouts/application
+Rendering libros/index
+  [4;35;1mLibro Columns (0.0ms)[0m   [0mSHOW FIELDS FROM `libros`[0m
+  [4;36;1mUser Columns (0.0ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (0.0ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = '1') LIMIT 1[0m
+Completed in 203ms (View: 187, DB: 0) | 200 OK [http://127.0.0.1/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (16.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UserSessionsController#destroy (for 127.0.0.1 at 2010-10-30 01:06:04) [GET]
+  Parameters: {"action"=>"destroy", "controller"=>"user_sessions"}
+  [4;36;1mUser Columns (0.0ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (0.0ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = '1') LIMIT 1[0m
+Redirected to http://127.0.0.1:3000/
+Completed in 62ms (DB: 16) | 302 Found [http://127.0.0.1/logout]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing LibrosController#index (for 127.0.0.1 at 2010-10-30 01:06:04) [GET]
+  Parameters: {"action"=>"index", "controller"=>"libros"}
+  [4;36;1mLibro Load (0.0ms)[0m   [0;1mSELECT * FROM `libros` [0m
+Rendering template within layouts/application
+Rendering libros/index
+  [4;35;1mLibro Columns (0.0ms)[0m   [0mSHOW FIELDS FROM `libros`[0m
+  [4;36;1mUser Columns (15.0ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+Completed in 78ms (View: 48, DB: 15) | 200 OK [http://127.0.0.1/]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UsersController#new (for 127.0.0.1 at 2010-10-30 01:06:08) [GET]
+  Parameters: {"action"=>"new", "controller"=>"users"}
+  [4;35;1mUser Columns (15.0ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+Rendering template within layouts/application
+Rendering users/new
+Rendered users/_form (78.0ms)
+Completed in 156ms (View: 125, DB: 15) | 200 OK [http://127.0.0.1/users/new]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UsersController#new (for 127.0.0.1 at 2010-10-30 01:06:35) [GET]
+  Parameters: {"action"=>"new", "controller"=>"users"}
+  [4;36;1mUser Columns (0.0ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+Rendering template within layouts/application
+Rendering users/new
+Rendered users/_form (218.0ms)
+Completed in 469ms (View: 313, DB: 0) | 200 OK [http://127.0.0.1/users/new]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UserSessionsController#new (for 127.0.0.1 at 2010-10-30 01:06:36) [GET]
+  Parameters: {"action"=>"new", "controller"=>"user_sessions"}
+  [4;35;1mUser Columns (0.0ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+Rendering template within layouts/application
+Rendering user_sessions/new
+Completed in 94ms (View: 32, DB: 0) | 200 OK [http://127.0.0.1/login]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UserSessionsController#new (for 127.0.0.1 at 2010-10-30 01:10:56) [GET]
+  Parameters: {"action"=>"new", "controller"=>"user_sessions"}
+  [4;36;1mUser Columns (0.0ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+Rendering template within layouts/application
+Rendering user_sessions/new
+Completed in 421ms (View: 15, DB: 0) | 200 OK [http://127.0.0.1/login]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UserSessionsController#new (for 127.0.0.1 at 2010-10-30 01:11:00) [GET]
+  Parameters: {"action"=>"new", "controller"=>"user_sessions"}
+  [4;35;1mUser Columns (15.0ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+Rendering template within layouts/application
+Rendering user_sessions/new
+Completed in 188ms (View: 16, DB: 15) | 200 OK [http://127.0.0.1/login]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UsersController#new (for 127.0.0.1 at 2010-10-30 01:11:03) [GET]
+  Parameters: {"action"=>"new", "controller"=>"users"}
+  [4;36;1mUser Columns (0.0ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+Rendering template within layouts/application
+Rendering users/new
+Rendered users/_form (16.0ms)
+Completed in 62ms (View: 31, DB: 0) | 200 OK [http://127.0.0.1/users/new]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UserSessionsController#new (for 127.0.0.1 at 2010-10-30 01:11:15) [GET]
+  Parameters: {"action"=>"new", "controller"=>"user_sessions"}
+  [4;35;1mUser Columns (0.0ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+Rendering template within layouts/application
+Rendering user_sessions/new
+Completed in 172ms (View: 16, DB: 0) | 200 OK [http://127.0.0.1/login]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UserSessionsController#create (for 127.0.0.1 at 2010-10-30 01:11:21) [POST]
+  Parameters: {"commit"=>"Entrar", "user_session"=>{"username"=>"juanca", "password"=>"[FILTERED]"}, "action"=>"create", "authenticity_token"=>"3H3kTR/cI/dcHTY4qD5zapMKbj51Yh282y3M68OFzJw=", "controller"=>"user_sessions"}
+  [4;36;1mUser Columns (0.0ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (0.0ms)[0m   [0mSELECT * FROM `users` WHERE (LOWER(`users`.username) = 'juanca') LIMIT 1[0m
+Redirected to http://127.0.0.1:3000/
+Completed in 156ms (DB: 0) | 302 Found [http://127.0.0.1/user_sessions]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing LibrosController#index (for 127.0.0.1 at 2010-10-30 01:11:22) [GET]
+  Parameters: {"action"=>"index", "controller"=>"libros"}
+  [4;36;1mLibro Load (0.0ms)[0m   [0;1mSELECT * FROM `libros` [0m
+Rendering template within layouts/application
+Rendering libros/index
+  [4;35;1mLibro Columns (0.0ms)[0m   [0mSHOW FIELDS FROM `libros`[0m
+  [4;36;1mUser Columns (15.0ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (0.0ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = '1') LIMIT 1[0m
+Completed in 94ms (View: 63, DB: 15) | 200 OK [http://127.0.0.1/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing LibrosController#new (for 127.0.0.1 at 2010-10-30 01:11:26) [GET]
+  Parameters: {"action"=>"new", "controller"=>"libros"}
+  [4;36;1mLibro Columns (0.0ms)[0m   [0;1mSHOW FIELDS FROM `libros`[0m
+Rendering template within layouts/application
+Rendering libros/new
+  [4;35;1mUser Columns (0.0ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (15.0ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = '1') LIMIT 1[0m
+Completed in 828ms (View: 719, DB: 15) | 200 OK [http://127.0.0.1/libros/new]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing LibrosController#create (for 127.0.0.1 at 2010-10-30 01:11:30) [POST]
+  Parameters: {"commit"=>"Create", "action"=>"create", "authenticity_token"=>"3H3kTR/cI/dcHTY4qD5zapMKbj51Yh282y3M68OFzJw=", "controller"=>"libros", "libro"=>{"contenido"=>"sdasda", "titulo"=>"dasda"}}
+  [4;35;1mLibro Columns (0.0ms)[0m   [0mSHOW FIELDS FROM `libros`[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mLibro Create (62.0ms)[0m   [0mINSERT INTO `libros` (`updated_at`, `titulo`, `contenido`, `created_at`) VALUES('2010-10-30 05:11:30', 'dasda', 'sdasda', '2010-10-30 05:11:30')[0m
+  [4;36;1mSQL (63.0ms)[0m   [0;1mCOMMIT[0m
+Redirected to http://127.0.0.1:3000/libros/3
+Completed in 141ms (DB: 125) | 302 Found [http://127.0.0.1/libros]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing LibrosController#show (for 127.0.0.1 at 2010-10-30 01:11:30) [GET]
+  Parameters: {"action"=>"show", "id"=>"3", "controller"=>"libros"}
+  [4;35;1mLibro Columns (0.0ms)[0m   [0mSHOW FIELDS FROM `libros`[0m
+  [4;36;1mLibro Load (0.0ms)[0m   [0;1mSELECT * FROM `libros` WHERE (`libros`.`id` = 3) [0m
+Rendering template within layouts/application
+Rendering libros/show
+  [4;35;1mUser Columns (0.0ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (0.0ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = '1') LIMIT 1[0m
+Completed in 94ms (View: 78, DB: 0) | 200 OK [http://127.0.0.1/libros/3]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing LibrosController#index (for 127.0.0.1 at 2010-10-30 01:11:33) [GET]
+  Parameters: {"action"=>"index", "controller"=>"libros"}
+  [4;35;1mLibro Load (0.0ms)[0m   [0mSELECT * FROM `libros` [0m
+Rendering template within layouts/application
+Rendering libros/index
+  [4;36;1mLibro Columns (0.0ms)[0m   [0;1mSHOW FIELDS FROM `libros`[0m
+  [4;35;1mUser Columns (15.0ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (0.0ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = '1') LIMIT 1[0m
+Completed in 203ms (View: 173, DB: 15) | 200 OK [http://127.0.0.1/libros]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing LibrosController#new (for 127.0.0.1 at 2010-10-30 01:11:34) [GET]
+  Parameters: {"action"=>"new", "controller"=>"libros"}
+  [4;35;1mLibro Columns (0.0ms)[0m   [0mSHOW FIELDS FROM `libros`[0m
+Rendering template within layouts/application
+Rendering libros/new
+  [4;36;1mUser Columns (0.0ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (0.0ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = '1') LIMIT 1[0m
+Completed in 203ms (View: 187, DB: 0) | 200 OK [http://127.0.0.1/libros/new]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing LibrosController#create (for 127.0.0.1 at 2010-10-30 01:11:37) [POST]
+  Parameters: {"commit"=>"Create", "action"=>"create", "authenticity_token"=>"3H3kTR/cI/dcHTY4qD5zapMKbj51Yh282y3M68OFzJw=", "controller"=>"libros", "libro"=>{"contenido"=>"dssdsd", "titulo"=>"dssdsd"}}
+  [4;36;1mLibro Columns (0.0ms)[0m   [0;1mSHOW FIELDS FROM `libros`[0m
+  [4;35;1mSQL (16.0ms)[0m   [0mBEGIN[0m
+  [4;36;1mLibro Create (0.0ms)[0m   [0;1mINSERT INTO `libros` (`updated_at`, `titulo`, `contenido`, `created_at`) VALUES('2010-10-30 05:11:37', 'dssdsd', 'dssdsd', '2010-10-30 05:11:37')[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mCOMMIT[0m
+Redirected to http://127.0.0.1:3000/libros/4
+Completed in 282ms (DB: 16) | 302 Found [http://127.0.0.1/libros]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing LibrosController#show (for 127.0.0.1 at 2010-10-30 01:11:38) [GET]
+  Parameters: {"action"=>"show", "id"=>"4", "controller"=>"libros"}
+  [4;36;1mLibro Columns (0.0ms)[0m   [0;1mSHOW FIELDS FROM `libros`[0m
+  [4;35;1mLibro Load (0.0ms)[0m   [0mSELECT * FROM `libros` WHERE (`libros`.`id` = 4) [0m
+Rendering template within layouts/application
+Rendering libros/show
+  [4;36;1mUser Columns (0.0ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (0.0ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = '1') LIMIT 1[0m
+Completed in 422ms (View: 375, DB: 0) | 200 OK [http://127.0.0.1/libros/4]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing LibrosController#index (for 127.0.0.1 at 2010-10-30 01:11:39) [GET]
+  Parameters: {"action"=>"index", "controller"=>"libros"}
+  [4;36;1mLibro Load (0.0ms)[0m   [0;1mSELECT * FROM `libros` [0m
+Rendering template within layouts/application
+Rendering libros/index
+  [4;35;1mLibro Columns (109.0ms)[0m   [0mSHOW FIELDS FROM `libros`[0m
+  [4;36;1mUser Columns (0.0ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (0.0ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = '1') LIMIT 1[0m
+Completed in 203ms (View: 78, DB: 109) | 200 OK [http://127.0.0.1/libros]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing LibrosController#new (for 127.0.0.1 at 2010-10-30 01:11:41) [GET]
+  Parameters: {"action"=>"new", "controller"=>"libros"}
+  [4;36;1mLibro Columns (15.0ms)[0m   [0;1mSHOW FIELDS FROM `libros`[0m
+Rendering template within layouts/application
+Rendering libros/new
+  [4;35;1mUser Columns (0.0ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (0.0ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = '1') LIMIT 1[0m
+Completed in 110ms (View: 79, DB: 15) | 200 OK [http://127.0.0.1/libros/new]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing LibrosController#create (for 127.0.0.1 at 2010-10-30 01:11:44) [POST]
+  Parameters: {"commit"=>"Create", "action"=>"create", "authenticity_token"=>"3H3kTR/cI/dcHTY4qD5zapMKbj51Yh282y3M68OFzJw=", "controller"=>"libros", "libro"=>{"contenido"=>"fddfdffd", "titulo"=>"fdffddf"}}
+  [4;35;1mLibro Columns (0.0ms)[0m   [0mSHOW FIELDS FROM `libros`[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mLibro Create (0.0ms)[0m   [0mINSERT INTO `libros` (`updated_at`, `titulo`, `contenido`, `created_at`) VALUES('2010-10-30 05:11:44', 'fdffddf', 'fddfdffd', '2010-10-30 05:11:44')[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mCOMMIT[0m
+Redirected to http://127.0.0.1:3000/libros/5
+Completed in 31ms (DB: 0) | 302 Found [http://127.0.0.1/libros]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing LibrosController#show (for 127.0.0.1 at 2010-10-30 01:11:44) [GET]
+  Parameters: {"action"=>"show", "id"=>"5", "controller"=>"libros"}
+  [4;35;1mLibro Columns (15.0ms)[0m   [0mSHOW FIELDS FROM `libros`[0m
+  [4;36;1mLibro Load (0.0ms)[0m   [0;1mSELECT * FROM `libros` WHERE (`libros`.`id` = 5) [0m
+Rendering template within layouts/application
+Rendering libros/show
+  [4;35;1mUser Columns (0.0ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (0.0ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = '1') LIMIT 1[0m
+Completed in 94ms (View: 63, DB: 15) | 200 OK [http://127.0.0.1/libros/5]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing LibrosController#index (for 127.0.0.1 at 2010-10-30 01:11:46) [GET]
+  Parameters: {"action"=>"index", "controller"=>"libros"}
+  [4;35;1mLibro Load (0.0ms)[0m   [0mSELECT * FROM `libros` [0m
+Rendering template within layouts/application
+Rendering libros/index
+  [4;36;1mLibro Columns (0.0ms)[0m   [0;1mSHOW FIELDS FROM `libros`[0m
+  [4;35;1mUser Columns (0.0ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (0.0ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = '1') LIMIT 1[0m
+Completed in 343ms (View: 328, DB: 0) | 200 OK [http://127.0.0.1/libros]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing LibrosController#index (for 127.0.0.1 at 2010-10-30 01:13:01) [GET]
+  Parameters: {"action"=>"index", "controller"=>"libros"}
+  [4;35;1mLibro Load (16.0ms)[0m   [0mSELECT * FROM `libros` [0m
+Rendering template within layouts/application
+Rendering libros/index
+  [4;36;1mLibro Columns (0.0ms)[0m   [0;1mSHOW FIELDS FROM `libros`[0m
+  [4;35;1mUser Columns (0.0ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (0.0ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = '1') LIMIT 1[0m
+Completed in 484ms (View: 437, DB: 16) | 200 OK [http://127.0.0.1/libros]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing LibrosController#index (for 127.0.0.1 at 2010-10-30 01:13:49) [GET]
+  Parameters: {"action"=>"index", "controller"=>"libros"}
+  [4;35;1mLibro Load (0.0ms)[0m   [0mSELECT * FROM `libros` [0m
+Rendering template within layouts/application
+Rendering libros/index
+  [4;36;1mLibro Columns (15.0ms)[0m   [0;1mSHOW FIELDS FROM `libros`[0m
+  [4;35;1mUser Columns (0.0ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (0.0ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = '1') LIMIT 1[0m
+Completed in 141ms (View: 94, DB: 15) | 200 OK [http://127.0.0.1/libros]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing LibrosController#index (for 127.0.0.1 at 2010-10-30 01:14:34) [GET]
+  Parameters: {"action"=>"index", "controller"=>"libros"}
+  [4;35;1mLibro Load (0.0ms)[0m   [0mSELECT * FROM `libros` [0m
+Rendering template within layouts/application
+Rendering libros/index
+  [4;36;1mLibro Columns (0.0ms)[0m   [0;1mSHOW FIELDS FROM `libros`[0m
+  [4;35;1mUser Columns (16.0ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (0.0ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = '1') LIMIT 1[0m
+Completed in 234ms (View: 78, DB: 16) | 200 OK [http://127.0.0.1/libros]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (31.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing LibrosController#index (for 127.0.0.1 at 2010-10-30 01:15:13) [GET]
+  Parameters: {"action"=>"index", "controller"=>"libros"}
+  [4;35;1mLibro Load (0.0ms)[0m   [0mSELECT * FROM `libros` [0m
+Rendering template within layouts/application
+Rendering libros/index
+  [4;36;1mLibro Columns (62.0ms)[0m   [0;1mSHOW FIELDS FROM `libros`[0m
+  [4;35;1mUser Columns (79.0ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (0.0ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = '1') LIMIT 1[0m
+Completed in 781ms (View: 577, DB: 172) | 200 OK [http://127.0.0.1/libros]
+  [4;36;1mSQL (32.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing LibrosController#new (for 127.0.0.1 at 2010-10-30 08:07:28) [GET]
+  Parameters: {"action"=>"new", "controller"=>"libros"}
+  [4;36;1mLibro Columns (94.0ms)[0m   [0;1mSHOW FIELDS FROM `libros`[0m
+Rendering template within layouts/application
+Rendering libros/new
+  [4;35;1mUser Columns (31.0ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+Completed in 1860ms (View: 1719, DB: 157) | 200 OK [http://127.0.0.1/libros/new]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing LibrosController#index (for 127.0.0.1 at 2010-10-30 08:07:33) [GET]
+  Parameters: {"action"=>"index", "controller"=>"libros"}
+  [4;36;1mLibro Load (0.0ms)[0m   [0;1mSELECT * FROM `libros` [0m
+Rendering template within layouts/application
+Rendering libros/index
+  [4;35;1mLibro Columns (0.0ms)[0m   [0mSHOW FIELDS FROM `libros`[0m
+  [4;36;1mUser Columns (16.0ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+Completed in 281ms (View: 93, DB: 16) | 200 OK [http://127.0.0.1/]

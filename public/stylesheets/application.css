@@ -27,6 +27,26 @@ a {
   margin-top: 20px;
 }
 
+#cabecera{
+    float: left;
+    width: 100%;
+
+}
+#menu{
+    float: left;
+    width: 15%;
+}
+
+#contenido {
+    float: left;
+    width: 85%;
+}
+
+#pie{
+    clear: both;
+    width: 100%;
+}
+
 #flash_notice, #flash_error {
   padding: 5px 8px;
   margin: 10px 0;
